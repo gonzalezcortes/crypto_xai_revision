@@ -1,0 +1,4 @@
+docker build -t crypto_xai_revision .
+docker run -v "$(pwd)/input:/crypto_xai_revision/input" -v "$(pwd)/output:/crypto_xai_revision/output" crypto_xai_revision
+
+
